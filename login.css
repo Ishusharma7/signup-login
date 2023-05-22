@@ -1,0 +1,38 @@
+body{
+    background-color: aqua;
+}
+label{
+    display: block;
+    font-weight: bolder;
+}
+div{
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    background-color: white;
+    padding: 1em;
+}
+input[type="text"]{
+    width: 20em;
+    height: 2em;
+}
+input[type="password"]{
+    width: 20em;
+    height: 2em;
+}
+input[type="button"]{
+    margin: 1em;
+   padding: 0.5em;
+   width: 8em;
+}
+button{
+    margin: 1em;
+   padding: 0.5em;
+   width: 8em;
+}
+.shadow{
+    box-shadow: 2px 2px 4px rgba( 31, 31, 31, 31);
+}
+p{
+    font-weight: bold;
+}

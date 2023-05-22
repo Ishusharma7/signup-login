@@ -1,0 +1,53 @@
+body{
+    background-color: aqua;
+}
+label{
+    display: block;
+    font-weight: bolder;
+}
+div{
+    position: absolute;
+    left: 40%;
+    top: 5%;
+    background-color: white;
+    padding: 1em;
+}
+input[type="text"]{
+    width: 20em;
+    height: 2em;
+}
+input[type="date"]{
+    width: 20em;
+    height: 2em;
+}
+input[type="password"]{
+    width: 20em;
+    height: 2em;
+}
+input[type="button"]{
+    margin: 1em;
+   padding: 0.5em;
+   width: 8em;
+}
+button{
+        margin: 1em;
+       padding: 0.5em;
+       width: 8em;
+}
+.shadow{
+    box-shadow: 2px 2px 4px rgba( 31, 31, 31, 31);
+}
+.success{
+    border: 3px solid green ;
+}
+.error{
+    border: 3px solid red;
+}
+small{
+    color: rgb(214, 20, 159);
+    font-weight: bolder;
+    margin: 5px;
+}
+p{
+    font-weight: bold;
+}
